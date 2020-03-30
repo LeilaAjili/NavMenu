@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  width:500px;
+  background-color: lightsalmon
+}
+.title{
+  position: relative;
+}
+.title:hover .drop-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.drop-list{
+  background-color: limegreen;
+  display: none;
+  position: absolute;
+}
